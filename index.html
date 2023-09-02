@@ -8,14 +8,14 @@
 </head>
 <body>
     
-    <div class="container w-25 my-5">
-        <input type="text" class="form-control" id="urlInput" placeholder="Enter JSON URL">
-        <button class="offset-50 my-2 btn btn-primary" onclick="fetchAndQueryJSON()">Query</button>
-        
+    <div class="container d-flex justify-content-center align-items-center my-5">
+            <input class="form-control w-25" type="text" id="urlInput" placeholder="Enter JSON URL" />
+            <button class="btn btn-primary ms-3" id="descButton">QUERY</button>
     </div>
-        <div class="my-5">
-            <pre id="filteredJson"></pre>
-        </div>
+    
+    <div>
+        <pre id="descJson"></pre>
+    </div>
 
 <script src="index.js"></script>
 </body>
